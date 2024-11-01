@@ -116,7 +116,7 @@ endTime.setHours(11, 10, 0, 0); // End Time
 
 <br>
 
-[@shamough1792](https://github.com/shamough1792)
+[shamough1792](https://github.com/shamough1792)
 
 <br>
 
