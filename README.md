@@ -68,7 +68,7 @@ endTime.setHours(11, 10, 0, 0); // End Time
 
 * Default will refresh every 5 minutes during the time period. You can edit it from here:
   ```
-  await new Promise(resolve => setTimeout(resolve, 300000)); // 5 minutes (unit in microseconds.)
+  await new Promise(resolve => setTimeout(resolve, 300000)); // 5 minutes (unit in milliseconds.)
   ```
 
 
