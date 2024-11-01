@@ -35,7 +35,7 @@ async function refreshWebsite(page, url) {
 
 async function run() {
 const browser = await puppeteer.launch({
-    headless: true, // This should remain false to see the browser
+    headless: true,
 });
 const page = await browser.newPage();
 
@@ -66,7 +66,7 @@ const page = await browser.newPage();
     // Start the automated refresh process
     while (new Date() >= startTime && new Date() <= endTime) {
         await refreshWebsite(page, url);
-        await new Promise(resolve => setTimeout(resolve, 300000)); // 5 minutes
+        await new Promise(resolve => setTimeout(resolve, 300000)); // 5 minutes (unit in milliseconds.)
     }
 
     console.log('Time period has ended. Closing the browser...'); // Termination message
