@@ -37,3 +37,6 @@ endTime.setHours(11, 10, 0, 0); // End Time**</strong><br>
 <h1>Sample Crontab To Run The Script</h1>
 0 16 * * 3 . $HOME/.nvm/nvm.sh && rm -f /home/student/auto_s689f_lecture/auto.log && cd /home/student/auto_s689f_lecture && /home/student/.nvm/versions/node/v20.16.0/bin/node auto.js >> /home/student/auto_s689f_lecture/auto.log 2>&1<br>
 <br>Run at every wednesday 16:00 and generate auto.log everytime for logging.
+
+<h1>Credits</h1>
+- POE
