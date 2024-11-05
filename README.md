@@ -44,6 +44,8 @@ npm install
 node auto.js
 ```
 
+### **Important Notice:** program currently only can run by crontab.
+
 <br>
 
 ## Setup
