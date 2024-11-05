@@ -18,6 +18,10 @@ This project demonstrates how to leverage Node.js and Puppeteer to create a web 
 
 <br>
 
+### **Important Notice:** program currently only can run by crontab.
+
+<br>
+
 ### Dependencies
 
 * Linux
@@ -43,8 +47,6 @@ npm install
 ```
 node auto.js
 ```
-
-### **Important Notice:** program currently only can run by crontab.
 
 <br>
 
