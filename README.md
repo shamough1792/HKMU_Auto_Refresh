@@ -126,6 +126,8 @@ endTime.setHours(11, 10, 0, 0); // End Time
 
 * 0.1
     * Initial Release
+* 0.2
+    * Fixed package.json
 
 <br>
 
