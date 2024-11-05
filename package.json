@@ -1,4 +1,10 @@
 {
+  "name": "puppeteer-automation",
+  "version": "1.0.0",
+  "main": "auto.js",
+  "scripts": {
+    "start": "node auto.js"
+  },
   "dependencies": {
     "puppeteer": "^23.6.1"
   }
