@@ -45,7 +45,14 @@ npm install
 ```
 
 ```
-node auto.js
+crontab -e
+```
+<br>
+
+### Sample Crontab To Run The Script
+* Run at every wednesday 16:00 and generate auto.log everytime for logging.
+```
+0 16 * * 3 . $HOME/.nvm/nvm.sh && rm -f /home/student/auto_s689f_lecture/auto.log && cd /home/student/auto_s689f_lecture && /home/student/.nvm/versions/node/v20.16.0/bin/node auto.js >> /home/student/auto_s689f_lecture/auto.log 2>&1
 ```
 
 <br>
@@ -102,17 +109,6 @@ endTime.setHours(11, 10, 0, 0); // End Time
   ```
   await new Promise(resolve => setTimeout(resolve, 300000)); // 5 minutes (unit in milliseconds.)
   ```
-
-<br><br>
-
-## Sample Crontab To Run The Script
-
-<br>
-
-* Run at every wednesday 16:00 and generate auto.log everytime for logging.
-```
-0 16 * * 3 . $HOME/.nvm/nvm.sh && rm -f /home/student/auto_s689f_lecture/auto.log && cd /home/student/auto_s689f_lecture && /home/student/.nvm/versions/node/v20.16.0/bin/node auto.js >> /home/student/auto_s689f_lecture/auto.log 2>&1
-```
 
 <br><br>
 
